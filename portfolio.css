@@ -1,0 +1,142 @@
+
+div.container{
+    width: 980px;
+    min-height:800px;
+    background-color: grey;
+    margin: 0px auto;
+    background-image: radial-gradient(#6f5964, #1b0b0f)
+}
+
+    div.header{
+        display: inline-block;
+        background-color: #f9f9f9;
+        width: 980px;
+
+    }
+        div.header h1{
+            width: 600px;
+            display: inline-block;
+            font-family: "Comic Sans MS";
+        }
+
+        div.header h2{
+            width: 370px;
+            display: inline-block;
+            text-align: right;
+            font-size: 20px; 
+        }
+
+    div.content{
+        padding: 20px 20px 0px 20px;
+    }
+
+        div.about{
+            min-height: 200px;
+            margin: auto;
+            font-family: Arial;
+            
+
+        }
+
+            div.about img{
+                width: 450px;
+                height: 270px;
+                border: 5px solid grey;
+                margin-right: 20px;
+            }
+
+            div.about div.aboutme{
+                display: inline-block;
+                vertical-align: top;
+                background-image: linear-gradient(to top right, #fefefe, #dacbd9);
+                width: 455px;
+                height: 280px;
+            }
+                div.aboutme h3{
+                    background-image: linear-gradient(#b0afb4, #878693, #b0afb4);
+                    color: white;
+                    min-height: 40px;
+                    margin-top: -1px;
+                    padding: 5px 5px;
+                }
+
+        div.projects{
+            min-height: 350px;
+            padding-top: 20px;
+            
+        }
+            div.projects div.message{
+                display:inline-block;
+                vertical-align: top;
+                width: 290px;
+                min-height: 600px;
+                background-image: linear-gradient(to top right, #fefefe, #dacbd9);
+                font-family: Arial, Helvetica, sans-serif;
+
+
+            }
+
+                div.message h3{
+                    background-image: linear-gradient(#b0afb4, #878693, #b0afb4);
+                    color: white;
+                    min-height: 40px;
+                    margin-top:-3px;
+                    padding: 5px 5px;
+                }
+
+                div.message h4{
+                    background-image: linear-gradient(#b0afb4, #878693, #b0afb4);
+                    color: white;
+                    min-height: 40px;
+                    padding: 5px 5px;
+                }
+
+                div.message img{
+                    width:290px;
+                }
+
+                div.message p{
+                    font-size: 85%;
+                    min-height: 120px;
+                    padding:5px 5px;
+
+                }
+                    #middlechild{
+                        margin-right: 29px;
+                        margin-left: 29px;
+                    }
+                
+                div.message div.tech img{
+                    text-align: center;
+                    width: 40px;
+                    height: 40px;
+                    margin: 2px 7px;
+                   
+                }
+
+                div.message button{
+                    background-color: #407d61;
+                    color: white;
+                    font-weight: bold;
+                    height: 20px;
+                    margin: 10px 100px 0px 80px;
+                    border-radius: 5px;
+
+                }
+
+    div.sub{
+        background-color: #f9f9f9;
+        min-height: 50px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+        div.sub img{
+            height: 20px;
+            width: 20px;
+            margin: 0px 5px 0px 5px;
+        }
+
+        div.sub a{
+            margin-bottom: 10px;
+        }
