@@ -290,12 +290,10 @@
                 margin-left: 25vw;
                 
             } */
-            
+
         .contact .social-media{
-            margin: 60px;
+            margin-top: 60px;
             display: block;
-
-
         }
         .contact .social-media img{
             background-color: white;
