@@ -275,7 +275,7 @@
 
    
 
-        .contact form{
+        /* .contact form{
             margin-top: 30px;
             width: 60%;
             margin-left: 20vw;
@@ -289,17 +289,18 @@
             .contact button{
                 margin-left: 25vw;
                 
-            }
-            .contact .social-media{
-                margin: 60px;
-                display: block;
+            } */
+            
+        .contact .social-media{
+            margin: 60px;
+            display: block;
 
 
-            }
-            .contact .social-media img{
-                background-color: white;
+        }
+        .contact .social-media img{
+            background-color: white;
 
-            }
+        }
 
 @media only screen and (max-width: 480px) {
     .sm-1 {
