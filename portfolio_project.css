@@ -244,6 +244,7 @@
         min-height: 800px;
         width: 100%;
         background-color: #2a2a2a;
+        margin-bottom: 0px;
     }
     .top-tri-con{
         border-top: 50px solid #cba69e;
@@ -269,7 +270,10 @@
             text-align: center;
             margin-top: 30px;
             color: white;
+            font-size: 30px;
         }
+
+   
 
         .contact form{
             margin-top: 30px;
@@ -287,6 +291,7 @@
                 
             }
             .contact .social-media{
+                margin: 60px;
                 display: block;
 
 
