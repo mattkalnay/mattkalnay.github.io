@@ -271,11 +271,11 @@
             font-size: 30px;
         }
 
-        .contact .social-media{
+        #sc{
             margin-top: 60px;
             display: block;
         }
-        .contact .social-media img{
+        #sc img{
             background-color: white;
 
         }
