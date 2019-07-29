@@ -297,9 +297,9 @@
         width: 6.25%;
     }
 
-    .socimg {
+    /* .socimg {
         margin-right: 6%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
@@ -317,10 +317,10 @@
     .med-2 {
         width: 44%;
     }
-    .socimg {
+    /* .socimg {
         margin-right: 8%;
         margin-left: 8%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1025px) {
@@ -340,8 +340,8 @@
         width: 44%;
     }
 
-    .socimg {
-        /* margin-right: 11%; */
+    /* .socimg {
+        margin-right: 11%;
         margin-left: 20%;
-    }
+    } */
 }
