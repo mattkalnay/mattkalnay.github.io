@@ -1,3 +1,6 @@
+*{
+    font-family: 'Signika', serif;
+}
 
 div.container{
     width: 980px;
@@ -16,7 +19,8 @@ div.container{
         div.header h1{
             width: 600px;
             display: inline-block;
-            font-family: "Comic Sans MS";
+            font-family: 'Signika', sans-serif;
+            ;
         }
 
         div.header h2{
@@ -33,7 +37,7 @@ div.container{
         div.about{
             min-height: 200px;
             margin: auto;
-            font-family: Arial;
+            /* font-family: Arial; */
             
 
         }

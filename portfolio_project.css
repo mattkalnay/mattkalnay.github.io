@@ -1,18 +1,17 @@
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .veiwWork {
         display: none;
-    }
+    } */
 
-}
+
 
 *{
-    /* outline: 1px solid pink; */
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Signika', sans-serif;    
     scroll-behavior: smooth;
 }
 
     .navbar{
+        font-family: 'Signika', sans-serif;
         background-color: white;
     }
         .navbar-link{
