@@ -1,7 +1,4 @@
-/* @media only screen and (max-width: 480px) {
-    .veiwWork {
-        display: none;
-    } */
+
 
 
 
@@ -16,6 +13,12 @@
     }
         .navbar-link{
             justify-content: flex-end;
+        }
+
+        .navcon{
+            width: 30px;
+            height: 30px;
+            border-radius: 35%;
         }
 
     .introduction{
@@ -42,9 +45,12 @@
             margin-left: 20%;
             margin-right: 20%;
         }
+        .introduction .buttonHolder{
+            text-align: center;
+        }
         .introduction button{
-            margin-left: 40%;
-            margin-right: 40%;
+            margin-left: auto;
+            margin-right: auto;
             background-color: rgba(0, 0, 0, 0.15);;
             color: white;
             margin-top: 40px;
@@ -52,6 +58,7 @@
             border-radius: 8%; 
             font-size: 20px;
             min-height: 100px;
+            display: block;
         }
             .introduction button:hover{
                 color: rgba(0, 162, 255);
@@ -68,7 +75,7 @@
 
     .portfolio{
         padding: 0px 5% 2% 5%;
-        background-color: #7fb0a6;
+        background-color: #f5f5f5;
 
     }
 
@@ -76,22 +83,32 @@
         .portfolio h3{
             font-size: 60px;
             text-align: center;
-            margin-bottom: 50px;
             padding-top: 50px;
         }
         .portfolio .projects{
             display: inline-block;
-            margin-bottom: 170px;
+            padding-bottom: 90px;
+            padding-top: 90px;
             
+        }
+
+        .portfolio .project-1{
+            border-bottom: 1px solid rgba(0, 0, 0, 0.25);
         }
             .portfolio .project-1-img{
                 margin-right: 0%;
                 vertical-align: top;
                 display: inline-block;
+                background-color: rgba(0, 0, 0, 0.15);
+                padding: 15px;
+                border-radius: 3%;
             }
 
             .portfolio .project-2-img{
                 vertical-align: top;
+                background-color: rgba(0, 0, 0, 0.15);
+                padding: 15px;
+                border-radius: 3%;
             }
 
             .portfolio .projects .project-text{
@@ -99,7 +116,7 @@
                 margin-right: 10%;
                 background: rgba(0, 0, 0, 0.15);
                 padding: 15px 15px;
-                border-radius: 5%;
+                border-radius: 3%;
                 
             }
                 .portfolio .projects .project-text h5{
@@ -144,7 +161,7 @@
                         padding: 0px 5% 100px 5%; 
     }
         .top-tri-about{
-            border-top: 50px solid #7fb0a6;
+            border-top: 50px solid #f5f5f5;
             border-left:  50vw solid transparent;
             border-right: 50vw solid transparent;
             width: 0;
@@ -161,7 +178,7 @@
             text-align: center;
             font-size: 70px;
             margin-bottom: 10px;
-            padding-top: 60px;
+            padding-top: 120px;
         }
 
         .about img{
@@ -325,7 +342,7 @@
 
 @media only screen and (min-width: 1025px) {
     .lg-h {
-        width: 12.5%
+        width: 12.5%;
     }
     
     .lg-e {
