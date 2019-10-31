@@ -75,6 +75,7 @@
 
     }
 
+
     
         .portfolio h3{
             font-size: 60px;
@@ -154,7 +155,8 @@
                     color: #FBEE73;
                 }
     .about{
-        min-height: 1000px;
+        width: 100%;
+        /* min-height: 1000px; */
         background-color:	#cba69e;
                         color: white;
                         padding: 0px 5% 100px 5%; 
@@ -256,7 +258,7 @@
                 transform:translateX(.5rem)
             }
     .contact{
-        min-height: 800px;
+        /* min-height: 800px; */
         width: 100%;
         background-color: #2a2a2a;
     }
