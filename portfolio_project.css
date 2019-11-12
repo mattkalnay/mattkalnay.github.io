@@ -292,6 +292,7 @@
         #sc{
             margin-top: 60px;
             display: block;
+            margin-bottom: 60px;
         }
         #sc img{
             background-color: white;
